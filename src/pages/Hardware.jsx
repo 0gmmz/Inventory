@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { listarActivos } from '../services/activos'
 import AssetTag from '../components/AssetTag'
 import EstadoBadge from '../components/EstadoBadge'
@@ -24,6 +24,7 @@ export default function Hardware() {
     <>
       <div className="page-head">
         <h1>Hardware</h1>
+        <Link to="/hardware/nuevo" className="btn">+ Registrar equipo</Link>
       </div>
 
       <div className="stack" style={{ marginBottom: 16 }}>

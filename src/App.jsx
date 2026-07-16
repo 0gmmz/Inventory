@@ -5,6 +5,7 @@ import Layout from './components/Layout'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
 import Hardware from './pages/Hardware'
+import NuevoActivo from './pages/NuevoActivo'
 import Licencias from './pages/Licencias'
 import Asignaciones from './pages/Asignaciones'
 
@@ -17,6 +18,7 @@ export default function App() {
           <Route element={<ProtectedRoute><Layout /></ProtectedRoute>}>
             <Route path="/" element={<Dashboard />} />
             <Route path="/hardware" element={<Hardware />} />
+            <Route path="/hardware/nuevo" element={<NuevoActivo />} />
             <Route path="/licencias" element={<Licencias />} />
             <Route path="/asignaciones" element={<Asignaciones />} />
           </Route>
