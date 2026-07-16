@@ -1,0 +1,45 @@
+/* ============================================
+   TOKENS DE DISEÑO — Inventario TI
+   Estética: etiqueta de activo / almacén de TI
+   ============================================ */
+:root {
+  /* Superficie */
+  --paper: #f3f5f3;
+  --card: #ffffff;
+  --card-soft: #fafbfa;
+  --line: #dde3df;
+  --line-strong: #c4cdc8;
+
+  /* Tinta */
+  --ink: #16211d;
+  --ink-2: #4a5651;
+  --ink-3: #7d8783;
+
+  /* Marca: verde inventario */
+  --brand: #0e6b52;
+  --brand-strong: #0a5340;
+  --brand-soft: #e2f0eb;
+  --brand-ink: #063a2d;
+
+  /* Estados de activo */
+  --st-disponible: #0e6b52;
+  --st-disponible-bg: #e2f0eb;
+  --st-asignado: #1c5fa8;
+  --st-asignado-bg: #e4eef9;
+  --st-reparacion: #a86a0e;
+  --st-reparacion-bg: #f9efdd;
+  --st-baja: #863d3d;
+  --st-baja-bg: #f6e7e7;
+
+  /* Tipografía */
+  --f-display: 'Space Grotesk', system-ui, sans-serif;
+  --f-body: 'Inter', system-ui, sans-serif;
+  --f-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* Geometría */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --tap: 44px;
+  --nav-h: 60px;
+}
